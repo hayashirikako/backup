@@ -1,9 +1,10 @@
 .logo{
-    position:absolute;
+    
     top:0px;
 }
 
 header{
+    
     width:100%;
     height:50px;
     line-height:50px;
@@ -32,7 +33,7 @@ border-bottom:2px solid black;
 padding-left:10px;  
 }
 
-.leftside{
+.left{
 float:left;
 width:900px;
 margin-bottom:30px;
@@ -44,8 +45,12 @@ height:450px;
 background-color:gray;
 }
 
-.box1{clear:left;
-padding-top:10px;
+.box1{
+    clear:left;
+    padding-top:10px;
+   
+    
+    
 }
 
 .box1 ul{
@@ -53,7 +58,8 @@ list-style-type:none;
 	}
 	
 .box1 li{
-float:left;
+    float:left;
+    padding-left: 8px;
 }
 
 
@@ -62,22 +68,30 @@ float:left;
     font-size:15px;
     text-align:center;
 }
-	
-.box2clear:left;
-padding-top:10px;
-}
 
-.box2 ul{
-list-style-type:none;
-	}
-	
-.box2li{
-float:left;
+.right{
+    float:left;
+    margin-left:30px;
+    margin-top:10px;
+    width:300px;
 }
 
 
-	
-.box2.text{
-    font-size:15px;
-    text-align:center;
+.right h2{
+    border-bottom: 1px dashed gray;
+}
+
+.right p{
+    padding-bottom: 2px;
+}
+
+footer{
+    clear: left;
+    width:100%;
+    height:50px;
+    line-height:50px;
+    background-color:black;
+    color:white;
+    text-align: center;
+    
 }
